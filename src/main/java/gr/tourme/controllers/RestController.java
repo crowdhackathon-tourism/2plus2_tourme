@@ -6,6 +6,7 @@ import java.util.Locale;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -15,12 +16,16 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
+import gr.tourme.db.AdventureDAO;
 import gr.tourme.model.Adventure;
 
 @Controller
 public class RestController {
 	private static final Logger logger = LoggerFactory.getLogger(RestController.class);
 
+	@Autowired
+	private AdventureDAO aDAO;	
+	
 	@CrossOrigin
 	@RequestMapping(value = "/rest", method = RequestMethod.GET, produces = "application/json;charset=UTF-8" )
 	public @ResponseBody List<Adventure> testAdventures(
@@ -46,12 +51,8 @@ public class RestController {
 		if (user_id<=0)
 			return new ArrayList<Adventure>();
 		
-		ArrayList<Adventure> adventureList = new ArrayList<>(10);
-		for (Integer i = 0; i < 10; i++) {
-			Adventure a = new Adventure();
-			a.loc_photo_url = i.toString();
-			adventureList.add(a);
-		}
+		List<Adventure> adventureList = aDAO.getAdventures(user_id);
+		
 		return adventureList;
 	}
 

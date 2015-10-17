@@ -6,6 +6,8 @@ import com.fasterxml.jackson.annotation.JsonIgnore;
 
 public class Adventure {
 	@JsonIgnore
+	public Integer adventure_id;
+	@JsonIgnore
 	public Integer user_id;
 	public String title;
 	public String description;

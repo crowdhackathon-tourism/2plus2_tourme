@@ -14,6 +14,9 @@
 	<logger name="gr.tourme.controllers">
 		<level value="debug" />
 	</logger>
+	<logger name="gr.tourme.db">
+		<level value="debug" />
+	</logger>
 	
 	<!-- 3rdparty Loggers -->
 	<logger name="org.springframework.core">
