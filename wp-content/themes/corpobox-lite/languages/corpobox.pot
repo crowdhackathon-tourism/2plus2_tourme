@@ -1,0 +1,855 @@
+# Copyright (C) 2014 Automattic
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: corpobox\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/_s\n"
+"POT-Creation-Date: 2015-10-09 20:49+0800\n"
+"PO-Revision-Date: 2015-10-09 20:49+0800\n"
+"Last-Translator: dinevthemes <post@makewp.ru>\n"
+"Language-Team: \n"
+"Language: EN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:16
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../404.php:17
+msgid ""
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+
+#: ../comments.php:18
+msgid "Comments: "
+msgstr ""
+
+#: ../comments.php:18
+msgid "0"
+msgstr ""
+
+#: ../comments.php:18
+msgid "1"
+msgstr ""
+
+#: ../comments.php:18
+msgid "%"
+msgstr ""
+
+#: ../comments.php:23 ../comments.php:37
+msgid "Comment navigation"
+msgstr ""
+
+#: ../comments.php:24 ../comments.php:38
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:25 ../comments.php:39
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:54
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:55
+msgid "Post Comment"
+msgstr ""
+
+#: ../content-aside.php:17 ../content-audio.php:30 ../content-gallery.php:28
+#: ../content-home-main.php:32 ../content-homepage.php:24
+#: ../content-link.php:33 ../content-page.php:29 ../content-quote.php:34
+#: ../content-single.php:40 ../content-status.php:30 ../content-video.php:30
+#: ../content.php:34 ../image.php:48 ../inc/template-tags.php:71
+#: ../inc/template-tags.php:89
+msgid "Edit"
+msgstr ""
+
+#: ../content-audio.php:27 ../content-gallery.php:25 ../content-link.php:30
+#: ../content-status.php:27 ../content-video.php:28 ../content.php:31
+msgid "Leave a comment"
+msgstr ""
+
+#: ../content-audio.php:27 ../content-gallery.php:25 ../content-link.php:30
+#: ../content-status.php:27 ../content-video.php:28 ../content.php:31
+msgid "1 Comment"
+msgstr ""
+
+#: ../content-audio.php:27 ../content-gallery.php:25 ../content-link.php:30
+#: ../content-status.php:27 ../content-video.php:28 ../content.php:31
+msgid "Comments: %"
+msgstr ""
+
+#: ../content-page.php:24 ../content-single.php:25 ../content.php:22
+msgid "Pages:"
+msgstr ""
+
+#: ../functions.php:91 ../inc/contextual-help.php:68
+msgid "Top Menu"
+msgstr ""
+
+#: ../functions.php:92
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:93 ../inc/contextual-help.php:63
+msgid "Social Menu"
+msgstr ""
+
+#: ../functions.php:132
+msgid "Sidebar Posts"
+msgstr ""
+
+#: ../functions.php:140
+msgid "Sidebar Pages"
+msgstr ""
+
+#: ../functions.php:148
+msgid "Home Page Section"
+msgstr ""
+
+#: ../functions.php:149
+msgid "The area Home Main page template section content in 2,3,4 column."
+msgstr ""
+
+#: ../functions.php:157
+msgid "Footer1"
+msgstr ""
+
+#: ../functions.php:158
+msgid "Located in the footer left."
+msgstr ""
+
+#: ../functions.php:166
+msgid "Footer2"
+msgstr ""
+
+#: ../functions.php:167
+msgid "Located in the footer center."
+msgstr ""
+
+#: ../functions.php:175
+msgid "Footer3"
+msgstr ""
+
+#: ../functions.php:176
+msgid "Located in the footer right."
+msgstr ""
+
+#: ../functions.php:427
+msgid "Store Sidebar"
+msgstr ""
+
+#: ../functions.php:428
+msgid "Located in the sidebar woocommerce page."
+msgstr ""
+
+#: ../functions.php:478 ../projects/single-project/meta.php:29
+msgid "Date"
+msgstr ""
+
+#: ../functions.php:479
+msgid "Enter a date for this project. (Optional)"
+msgstr ""
+
+#: ../functions.php:497
+msgid "Project"
+msgstr ""
+
+#: ../functions.php:498
+msgid "Located into Project sidebar"
+msgstr ""
+
+#: ../header.php:81
+msgid "Menu"
+msgstr ""
+
+#: ../image.php:34
+#, php-format
+msgid ""
+"Published <span class=\"entry-date\"><time class=\"entry-date\" datetime="
+"\"%1$s\">%2$s</time></span> at <a href=\"%3$s\">%4$s &times; %5$s</a> in <a "
+"href=\"%6$s\" rel=\"gallery\">%7$s</a>"
+msgstr ""
+
+#: ../no-results.php:17
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../no-results.php:21
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../no-results.php:26
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../search.php:26
+msgid "Nothing Found"
+msgstr ""
+
+#: ../searchform.php:11
+msgid "Search"
+msgstr ""
+
+#: ../inc/breadcrumbs.php:10
+msgid "Home"
+msgstr ""
+
+#: ../inc/breadcrumbs.php:11
+#, php-format
+msgid "Archive for %s"
+msgstr ""
+
+#: ../inc/breadcrumbs.php:12
+#, php-format
+msgid "Search results for: %s"
+msgstr ""
+
+#: ../inc/breadcrumbs.php:13
+#, php-format
+msgid "Posts tagged %s"
+msgstr ""
+
+#: ../inc/breadcrumbs.php:14
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../inc/breadcrumbs.php:15
+msgid "Error 404"
+msgstr ""
+
+#: ../inc/breadcrumbs.php:159 ../inc/extras.php:76
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../inc/contextual-help.php:15 ../inc/welcome.php:47 ../inc/welcome.php:48
+msgid "Corpobox Theme"
+msgstr ""
+
+#: ../inc/contextual-help.php:16
+msgid "Thank you for choosing this Theme!"
+msgstr ""
+
+#: ../inc/contextual-help.php:16
+msgid ""
+"The Theme has a contextual help for almost all admin screens. More "
+"information, help and support you will find on the website <a href=\"http://"
+"www.dinevthemes.com/\">DinevThemes</a>."
+msgstr ""
+
+#: ../inc/contextual-help.php:16
+msgid "Quick Start"
+msgstr ""
+
+#: ../inc/contextual-help.php:16
+msgid ""
+"Using Customizer set your color, upload a background image (or select any "
+"color), upload the image (or select any color) header and other settings."
+msgstr ""
+
+#: ../inc/contextual-help.php:16
+msgid ""
+"The theme has page templates for the Home Page. In the Home Tagline section "
+"can be used shortcode. For example, instead of heading to place the slider "
+"using shortcode slideshow plugin Soliloquy Sliders."
+msgstr ""
+
+#: ../inc/contextual-help.php:16
+msgid ""
+"If for Home page is the selected page with a default page template: featured "
+"image and the title of the child pages will be shown in two columns below "
+"the main content"
+msgstr ""
+
+#: ../inc/contextual-help.php:16
+msgid ""
+"If you want to display the posts without the sidebar just leave blank (no "
+"widgets) sidebar posts."
+msgstr ""
+
+#: ../inc/contextual-help.php:16
+msgid ""
+"Get more features and support with <a href=\"http://dinevthemes.com/themes/"
+"corpobox/\">Corpobox Premium</a>."
+msgstr ""
+
+#: ../inc/contextual-help.php:25 ../inc/contextual-help.php:26
+#: ../inc/contextual-help.php:35 ../inc/contextual-help.php:36
+#: ../inc/contextual-help.php:45 ../inc/contextual-help.php:54
+msgid "Theme Features"
+msgstr ""
+
+#: ../inc/contextual-help.php:26 ../inc/contextual-help.php:36
+msgid "Use Featured image"
+msgstr ""
+
+#: ../inc/contextual-help.php:26
+msgid "Upload the image that will be displayed header on single post."
+msgstr ""
+
+#: ../inc/contextual-help.php:26 ../inc/contextual-help.php:36
+msgid "Use Excerpt"
+msgstr ""
+
+#: ../inc/contextual-help.php:26
+msgid ""
+"Enter text in Metabox Excerpt to show announcement or the focus of the post."
+msgstr ""
+
+#: ../inc/contextual-help.php:26
+msgid "Format"
+msgstr ""
+
+#: ../inc/contextual-help.php:26
+msgid ""
+"<b>Quote.</b> As title, type the author quotes. Quote place in the main text "
+"box without using tag blockquote (b-quote). Featured image and Excerpt are "
+"not used.<br /><b>Link.</b> As title, type the name Link. URL place in the "
+"main text box without using http (http://). Featured image and Excerpt are "
+"not used."
+msgstr ""
+
+#: ../inc/contextual-help.php:26 ../inc/contextual-help.php:36
+msgid "Button"
+msgstr ""
+
+#: ../inc/contextual-help.php:26 ../inc/contextual-help.php:36
+msgid ""
+"To show the button, use the link class, , for example <code>class=\"btn blue"
+"\"</code>. Color options: green, blue, red."
+msgstr ""
+
+#: ../inc/contextual-help.php:26 ../inc/contextual-help.php:36
+msgid "Gallery shortcode"
+msgstr ""
+
+#: ../inc/contextual-help.php:26 ../inc/contextual-help.php:36
+msgid ""
+"For a slideshow gallery use the built-in parameter shortcode Themes "
+"<code>type=\"slider\"</code>, sample: <code>[gallery columns=\"...\" ids="
+"\"...\" type=\"slider\"]</code>"
+msgstr ""
+
+#: ../inc/contextual-help.php:36
+msgid "Upload the image that will be displayed header on page."
+msgstr ""
+
+#: ../inc/contextual-help.php:36
+msgid ""
+"Enter text in Metabox Excerpt to show announcement or the focus of the page."
+msgstr ""
+
+#: ../inc/contextual-help.php:36
+msgid "Templates"
+msgstr ""
+
+#: ../inc/contextual-help.php:36
+msgid ""
+"The theme has several page templates. Use metabox Page Attributes > dropdown "
+"Template."
+msgstr ""
+
+#: ../inc/contextual-help.php:46 ../inc/contextual-help.php:64
+msgid "Custom widgets"
+msgstr ""
+
+#: ../inc/contextual-help.php:46
+msgid ""
+"The theme has custom widgets to display the last one post formats on posts "
+"and pages sidebar or footer."
+msgstr ""
+
+#: ../inc/contextual-help.php:46
+msgid ""
+"The theme has a widget Corpobox-Icon that used the Home Main page template "
+"(Home Page Section Sidebar)."
+msgstr ""
+
+#: ../inc/contextual-help.php:55
+msgid "Custom Header background Color"
+msgstr ""
+
+#: ../inc/contextual-help.php:55
+msgid ""
+"Background color header set using Customizer. Go to Customize > Colors: "
+"Header BG Color"
+msgstr ""
+
+#: ../inc/contextual-help.php:64
+msgid ""
+"Menu icons social media is displayed in the footer. Included all popular "
+"icons of social media, and Feedburner. To create a menu item, use the tab "
+"Links (Edit Menus). And select Social Menu as Theme locations."
+msgstr ""
+
+#: ../inc/contextual-help.php:64
+msgid ""
+"Example:<br />tab <strong>Links</strong><br /><em>URL</em> http://twitter."
+"com/your<br /><em>Navigation Label</em> Twitter"
+msgstr ""
+
+#: ../inc/contextual-help.php:69
+msgid ""
+"<h2>Top Menu</h2><p>The theme has an additional top menu bar.</p><p>If you "
+"create a menu item using Links tab (Edit Menus) and links will be http://"
+"tel: OR http://mailto: OR https://goo.gl (short link google map) it will be "
+"displayed icons Font Awesome.</p><p>Example:<br />tab <strong>Links</"
+"strong><br /><em>URL</em> http://tel:+1916000000<br /><em>Navigation Label</"
+"em> +1 916 00.00.00</p>"
+msgstr ""
+
+#: ../inc/customizer.php:98
+msgid "Header BG Color"
+msgstr ""
+
+#: ../inc/customizer.php:110
+msgid "Link Color"
+msgstr ""
+
+#: ../inc/customizer.php:122
+msgid "Hover Color"
+msgstr ""
+
+#: ../inc/customizer.php:134
+msgid "Menu Bar Color"
+msgstr ""
+
+#: ../inc/customizer.php:146
+msgid "Menu Bar Current"
+msgstr ""
+
+#: ../inc/customizer.php:158
+msgid "Additional Color"
+msgstr ""
+
+#: ../inc/customizer.php:170
+msgid "Footer TXT Color"
+msgstr ""
+
+#: ../inc/customizer.php:182
+msgid "Footer BG Color"
+msgstr ""
+
+#: ../inc/customizer.php:196
+msgid "Logo Options"
+msgstr ""
+
+#: ../inc/customizer.php:210
+msgid "No Frame logo"
+msgstr ""
+
+#: ../inc/customizer.php:223
+msgid "Logo Image"
+msgstr ""
+
+#: ../inc/customizer.php:234
+msgid "Home Tagline"
+msgstr ""
+
+#: ../inc/customizer.php:264
+msgid "Tagline Text"
+msgstr ""
+
+#: ../inc/customizer.php:275
+msgid "Background Color"
+msgstr ""
+
+#: ../inc/customizer.php:282
+msgid "Background Image"
+msgstr ""
+
+#: ../inc/customizer.php:293
+msgid "Call to Action"
+msgstr ""
+
+#: ../inc/customizer.php:325
+msgid "Call Action Text"
+msgstr ""
+
+#: ../inc/customizer.php:333
+msgid "Button Text"
+msgstr ""
+
+#: ../inc/customizer.php:341
+msgid "URL Button"
+msgstr ""
+
+#: ../inc/customizer.php:351
+msgid "Footer Copyright"
+msgstr ""
+
+#: ../inc/customizer.php:368
+msgid "Copyright"
+msgstr ""
+
+#: ../inc/customizer.php:378
+msgid "Display Options"
+msgstr ""
+
+#: ../inc/customizer.php:392
+msgid "Hide Submenu pages"
+msgstr ""
+
+#: ../inc/customizer.php:406
+msgid "Disable lightbox image"
+msgstr ""
+
+#: ../inc/excerpts.php:18
+msgid "reading"
+msgstr ""
+
+#: ../inc/excerpts.php:18
+msgid "Read more"
+msgstr ""
+
+#: ../inc/pagination.php:46
+msgid "Posts navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:34
+msgid "Post navigation"
+msgstr ""
+
+#: ../inc/template-tags.php:44
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../inc/template-tags.php:48
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../inc/template-tags.php:71
+msgid "Pingback:"
+msgstr ""
+
+#: ../inc/template-tags.php:81
+#, php-format
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: ../inc/template-tags.php:93
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../inc/template-tags.php:184
+#, php-format
+msgid ""
+"<span class=\"posted-on\">%1$s</span><span class=\"byline\"> <i>by</i> %2$s</"
+"span>"
+msgstr ""
+
+#: ../inc/template-tags.php:203 ../inc/template-tags.php:204
+msgid ", "
+msgstr ""
+
+#: ../inc/template-tags.php:208
+msgid "Category: "
+msgstr ""
+
+#: ../inc/template-tags.php:213 ../template-parts/header.php:78
+msgid "Tag: "
+msgstr ""
+
+#: ../inc/template-tags.php:339
+#, php-format
+msgid "Powered by %s"
+msgstr ""
+
+#: ../inc/template-tags.php:341
+#, php-format
+msgid "Theme by %s"
+msgstr ""
+
+#: ../inc/template-tags.php:435
+msgid "View Cart"
+msgstr ""
+
+#: ../inc/welcome.php:36
+msgid "Welcome!"
+msgstr ""
+
+#: ../inc/welcome.php:66
+msgid "Theme"
+msgstr ""
+
+#: ../inc/welcome.php:67
+msgid "Thank you for choosing Corpobox WordPress theme for your website!"
+msgstr ""
+
+#: ../inc/welcome.php:72
+msgid "Welcome to"
+msgstr ""
+
+#: ../inc/welcome.php:75
+msgid "Here are some links to get you started and optional theme-setup tasks:"
+msgstr ""
+
+#: ../inc/welcome.php:82
+msgid "Get Started"
+msgstr ""
+
+#: ../inc/welcome.php:89 ../inc/welcome.php:97
+msgid "Set your Front page, go to"
+msgstr ""
+
+#: ../inc/welcome.php:89 ../inc/welcome.php:93 ../inc/welcome.php:97
+msgid "Front page displays"
+msgstr ""
+
+#: ../inc/welcome.php:93
+msgid "Set you Posts page, go to"
+msgstr ""
+
+#: ../inc/welcome.php:101
+msgid "To select page as Front page you will need to create a new page, go to "
+msgstr ""
+
+#: ../inc/welcome.php:101
+msgid "Add New Page"
+msgstr ""
+
+#: ../inc/welcome.php:105
+msgid "Set you "
+msgstr ""
+
+#: ../inc/welcome.php:105
+msgid "main Menu"
+msgstr ""
+
+#: ../inc/welcome.php:108 ../inc/welcome.php:111
+msgid "Get Support"
+msgstr ""
+
+#: ../inc/welcome.php:110
+msgid ""
+"For users of our premium themes our support is available 24/7. Just send us "
+"your questions."
+msgstr ""
+
+#: ../inc/welcome.php:117
+msgid "Next Steps"
+msgstr ""
+
+#: ../inc/welcome.php:119
+msgid "Corpobox includes a custom widgets, go to "
+msgstr ""
+
+#: ../inc/welcome.php:119
+msgid "Manage widgets"
+msgstr ""
+
+#: ../inc/welcome.php:123
+msgid "Using the WordPress Customizer you can tweak appearance."
+msgstr ""
+
+#: ../inc/welcome.php:131
+msgid "Plugins"
+msgstr ""
+
+#: ../inc/welcome.php:134
+msgid "Extend the functionality of the theme using free plugins, go to "
+msgstr ""
+
+#: ../inc/welcome.php:134
+msgid "Install Plugins"
+msgstr ""
+
+#: ../inc/welcome.php:136
+msgid ""
+"Below you will find links to plugins we recommend. None of these plugins are "
+"required for theme to work, they add additional functionality."
+msgstr ""
+
+#: ../inc/widgets/format-aside-widget.php:10
+msgid "Post Format Aside"
+msgstr ""
+
+#: ../inc/widgets/format-aside-widget.php:80
+#: ../inc/widgets/format-video-widget.php:80
+msgid "Post Format"
+msgstr ""
+
+#: ../inc/widgets/format-aside-widget.php:85
+#: ../inc/widgets/format-gallery-widget.php:90
+#: ../inc/widgets/format-quote-widget.php:83
+#: ../inc/widgets/format-video-widget.php:86
+msgid "Title"
+msgstr ""
+
+#: ../inc/widgets/format-gallery-widget.php:10
+msgid "Post Format Gallery"
+msgstr ""
+
+#: ../inc/widgets/format-gallery-widget.php:83
+#: ../inc/widgets/format-gallery-widget.php:84
+msgid "Gallery"
+msgstr ""
+
+#: ../inc/widgets/format-quote-widget.php:10
+msgid "Post Format Quote"
+msgstr ""
+
+#: ../inc/widgets/format-quote-widget.php:76
+msgid "Quote of the Day"
+msgstr ""
+
+#: ../inc/widgets/format-quote-widget.php:77
+msgid "Quote"
+msgstr ""
+
+#: ../inc/widgets/format-video-widget.php:10
+msgid "Post Format Video"
+msgstr ""
+
+#: ../inc/widgets/format-video-widget.php:81
+msgid "Video"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:13
+#: ../inc/widgets/widget-icontext.php:13
+msgid "Icons"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:16
+#: ../inc/widgets/widget-icontext.php:16
+msgid "Custom Text Widget with Icons"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:92
+#: ../inc/widgets/widget-icontext.php:92
+msgid "Title:"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:95
+#: ../inc/widgets/widget-icontext.php:95
+msgid "Icon:"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:97
+#: ../inc/widgets/widget-icontext.php:97
+msgid "View Icons"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:97
+#: ../inc/widgets/widget-icontext.php:97
+msgid "Remove"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:101
+#: ../inc/widgets/widget-icontext.php:101
+msgid "URL:"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:104
+#: ../inc/widgets/widget-icontext.php:104
+msgid "Button Text:"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:107
+#: ../inc/widgets/widget-icontext.php:107
+msgid "Icon and Button Color:"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:111
+#: ../inc/widgets/widget-icontext.php:111
+msgid "Default"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:112
+#: ../inc/widgets/widget-icontext.php:112
+msgid "Blue"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:113
+#: ../inc/widgets/widget-icontext.php:113
+msgid "Red"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:114
+#: ../inc/widgets/widget-icontext.php:114
+msgid "Green"
+msgstr ""
+
+#: ../inc/widgets/widget-icontext-x.php:124
+#: ../inc/widgets/widget-icontext.php:124
+msgid "Automatically add paragraphs"
+msgstr ""
+
+#: ../projects/single-project/meta.php:39
+msgid "Client"
+msgstr ""
+
+#: ../projects/single-project/meta.php:49
+msgid "Link"
+msgstr ""
+
+#: ../template-parts/header.php:60
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../template-parts/header.php:83
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: ../template-parts/header.php:87
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: ../template-parts/header.php:90
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: ../template-parts/header.php:93
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: ../template-parts/header.php:96
+msgid "Asides"
+msgstr ""
+
+#: ../template-parts/header.php:99
+msgid "Images"
+msgstr ""
+
+#: ../template-parts/header.php:102
+msgid "Videos"
+msgstr ""
+
+#: ../template-parts/header.php:105
+msgid "Quotes"
+msgstr ""
+
+#: ../template-parts/header.php:108
+msgid "Links"
+msgstr ""
+
+#: ../template-parts/header.php:111
+msgid "Blog"
+msgstr ""
+
+#: ../template-parts/header.php:114
+msgid "Archives"
+msgstr ""

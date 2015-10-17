@@ -1,0 +1,66 @@
+/* =Icon Widget
+-------------------------------------------------------------- */
+.custom-icon-container {
+	display: block;
+	line-height: 0;
+	margin: 5px 0;
+}
+
+.custom-icon-container i {
+	font-size: 42px;
+}
+
+.font-awesome-picker,
+.font-awesome-picker div {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.font-awesome-picker {
+	height: 300px;
+	overflow: scroll;
+	margin-left: -5px;
+	margin-right: -5px;
+	margin-top: 10px;
+	display: none;
+}
+
+	.font-awesome-picker .c4 {
+		float: left;
+		width: 33.33%;
+		text-align: center;
+		padding: 0 5px;
+	}
+
+	.font-awesome-picker .c4 div {
+		background: #fefefe;
+		width: 100%;
+		margin-bottom: 10px;
+		padding: 10px 0;
+		font-size: 11px;
+		cursor: pointer;
+	}
+
+		.customize-control .font-awesome-picker .c4 div {
+			height: 70px;
+		}
+
+		.font-awesome-picker .c4 div:hover {
+			background: #eee;
+		}
+
+	.font-awesome-picker i {
+		display: block;
+		font-size: 30px;
+		height: 45px;
+		line-height: 45px;
+	}
+
+		.font-awesome-picker .c4 div:hover i {
+			font-size: 40px;
+		}
+
+	.font-awesome-picker .c4:nth-child(3n+1) {
+		clear: both;
+	}
