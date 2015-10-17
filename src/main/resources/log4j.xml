@@ -11,8 +11,8 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="gr.tourme.app">
-		<level value="info" />
+	<logger name="gr.tourme.controllers">
+		<level value="debug" />
 	</logger>
 	
 	<!-- 3rdparty Loggers -->
