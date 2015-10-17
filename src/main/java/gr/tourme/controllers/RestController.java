@@ -33,7 +33,7 @@ public class RestController {
 		ArrayList<Adventure> adventureList = new ArrayList<>(count);
 		for (Integer i = 0; i < count; i++) {
 			Adventure a = new Adventure();
-			a.imageurl = i.toString();
+			a.loc_photo_url = i.toString();
 			adventureList.add(a);
 		}
 		return adventureList;
@@ -49,7 +49,7 @@ public class RestController {
 		ArrayList<Adventure> adventureList = new ArrayList<>(10);
 		for (Integer i = 0; i < 10; i++) {
 			Adventure a = new Adventure();
-			a.imageurl = i.toString();
+			a.loc_photo_url = i.toString();
 			adventureList.add(a);
 		}
 		return adventureList;
@@ -60,7 +60,8 @@ public class RestController {
 	@ResponseBody
 	public String newAdventure(@RequestBody Adventure adventure, @PathVariable Integer user_id) {
 		logger.debug("Received data for user " + user_id +", adventure: " + adventure);
-		logger.info("imageurl: " + adventure.imageurl);
+		logger.info("imageurl: " + adventure.loc_photo_url);
+		adventure.user_id = user_id;
 		return "OK";
 	}
 	
