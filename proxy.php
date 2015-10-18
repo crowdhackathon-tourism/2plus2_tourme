@@ -9,7 +9,7 @@
  * Enables or disables filtering for cross domain requests.
  * Recommended value: true
  */
-define( 'CSAJAX_FILTERS', true );
+define( 'CSAJAX_FILTERS', false );	//WILL SET THIS UP LATER
 /**
  * If set to true, $valid_requests should hold only domains i.e. a.example.com, b.example.com, usethisdomain.com
  * If set to false, $valid_requests should hold the whole URL ( without the parameters ) i.e. http://example.com/this/is/long/url/

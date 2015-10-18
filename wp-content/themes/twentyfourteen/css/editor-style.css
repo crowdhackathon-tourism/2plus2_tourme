@@ -277,12 +277,12 @@ hr {
  */
 
 a {
-	color: #24890d;
+	color: #EA2628;
 	text-decoration: none;
 }
 
 a:visited {
-	color: #24890d;
+	color: #EA2628;
 }
 
 a:focus {
@@ -291,7 +291,7 @@ a:focus {
 
 a:active,
 a:hover {
-	color: #41a62a;
+	color: #EA2628;
 	outline: 0;
 }
 
@@ -603,7 +603,7 @@ img {
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-current {
-	background: #24890d;
+	background: #EA2628;
 }
 
 .mejs-controls .mejs-time-rail .mejs-time-total,
@@ -686,12 +686,12 @@ img {
 }
 
 .mejs-overlay:hover .mejs-overlay-button {
-	background-color: #24890d;
+	background-color: #EA2628;
 	color: #fff;
 }
 
 .mejs-controls .mejs-button button:hover {
-	color: #41a62a;
+	color: #EA2628;
 }
 
 

@@ -31,6 +31,18 @@
 </head>
 
 <body <?php body_class(); ?>>
+
+<script>
+var tme_user_id = <?php echo get_current_user_id() ?>;
+</script>
+
+<script src="/tourme/js/tourme.js">
+</script>
+
+
+<script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+
+
 <div id="page" class="hfeed site">
 	<?php if ( get_header_image() ) : ?>
 	<div id="site-header">
@@ -42,7 +54,7 @@
 
 	<header id="masthead" class="site-header" role="banner">
 		<div class="header-main">
-			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h1 class="site-title"><img src="/tourme/logo.jpg" align="left"/><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 
 			<div class="search-toggle">
 				<a href="#search-container" class="screen-reader-text" aria-expanded="false" aria-controls="search-container"><?php _e( 'Search', 'twentyfourteen' ); ?></a>
@@ -51,10 +63,15 @@
 			<nav id="primary-navigation" class="site-navigation primary-navigation" role="navigation">
 				<button class="menu-toggle"><?php _e( 'Primary Menu', 'twentyfourteen' ); ?></button>
 				<a class="screen-reader-text skip-link" href="#content"><?php _e( 'Skip to content', 'twentyfourteen' ); ?></a>
-				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); ?>
+				<?php 
+				wp_nav_menu( array( 'theme_location' => 'primary', 'menu_class' => 'nav-menu', 'menu_id' => 'primary-menu' ) ); 
+				?>						
 			</nav>
 		</div>
 
+		
+		
+		
 		<div id="search-container" class="search-box-wrapper hide">
 			<div class="search-box">
 				<?php get_search_form(); ?>
@@ -62,4 +79,10 @@
 		</div>
 	</header><!-- #masthead -->
 
+	
+	
+	<?php wp_register(' ' , ' '); ?> | <?php wp_loginout(); ?> 
+		
+	
+	
 	<div id="main" class="site-main">

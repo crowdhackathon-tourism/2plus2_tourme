@@ -396,7 +396,7 @@ a.post-thumbnail:hover {
 }
 
 .ie8 .primary-navigation ul ul {
-	background-color: #24890d;
+	background-color: #EA2628;
 	float: left;
 	margin: 0;
 	position: absolute;
@@ -425,13 +425,13 @@ a.post-thumbnail:hover {
 
 .ie8 .primary-navigation li:hover > a,
 .ie8 .primary-navigation li.focus > a {
-	background-color: #24890d;
+	background-color: #EA2628;
 	color: #fff;
 }
 
 .ie8 .primary-navigation ul ul a:hover,
 .ie8 .primary-navigation ul ul li.focus > a {
-	background-color: #41a62a;
+	background-color: #EA2628;
 }
 
 .ie8 .primary-navigation ul li:hover > ul,
@@ -585,7 +585,7 @@ a.post-thumbnail:hover {
 }
 
 .ie8 .secondary-navigation ul ul {
-	background-color: #24890d;
+	background-color: #EA2628;
 	position: absolute;
 	top: 0;
 	left: -999em;
@@ -599,13 +599,13 @@ a.post-thumbnail:hover {
 
 .ie8 .secondary-navigation li:hover > a,
 .ie8 .secondary-navigation li.focus > a {
-	background-color: #24890d;
+	background-color: #EA2628;
 	color: #fff;
 }
 
 .ie8 .secondary-navigation ul ul a:hover,
 .ie8 .secondary-navigation ul ul li.focus > a {
-	background-color: #41a62a;
+	background-color: #EA2628;
 }
 
 .ie8 .secondary-navigation ul li:hover > ul,
@@ -1006,7 +1006,7 @@ a.post-thumbnail:hover {
 }
 
 .ie7 .slider-control-paging .slider-active {
-	color: #41a62a;
+	color: #EA2628;
 }
 
 .ie7 .slider-direction-nav {
@@ -1026,7 +1026,7 @@ a.post-thumbnail:hover {
 
 .ie7 .slider-direction-nav a:hover {
 	background-color: #000;
-	color: #41a62a;
+	color: #EA2628;
 }
 
 .ie7 .search-toggle {
