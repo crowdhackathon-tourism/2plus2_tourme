@@ -28,6 +28,25 @@
 	<script src="<?php echo get_template_directory_uri(); ?>/js/html5.js"></script>
 	<![endif]-->
 	<?php wp_head(); ?>
+	
+<?php
+//I know obviously I am breaking all the rules with this stuff but we need to show a minimal visible product
+//Should be reimplemented using php shortcode, and these modifications all as a plugin on top of buddypress
+//echo $_SERVER['REQUEST_URI'];
+$mainSearch = 'tourme/home_main/';
+$add = $_SERVER['REQUEST_URI'];
+$onMain = strrpos($add, $mainSearch) || $_SERVER['REQUEST_URI']=="/tourme/";
+
+if($onMain){
+	if ( function_exists( 'bp_loggedin_user_id' ) && bp_loggedin_user_id() ){
+		$address = bp_loggedin_user_domain() . 'profile/edit/';
+		$address = "\"$address\"";
+		echo "<script>document.location.href=$address;</script>";		
+	}
+}
+?>
+	
+	
 </head>
 
 <body <?php body_class(); ?>>
@@ -81,8 +100,20 @@ var tme_user_id = <?php echo get_current_user_id() ?>;
 
 	
 	
-	<?php wp_register(' ' , ' '); ?> | <?php wp_loginout(); ?> 
+	<?php wp_register(' ' , ' '); ?> | <?php wp_loginout();?> 
+	
+
+	<?php if ( !is_user_logged_in() ) {
+		echo "<script>if(document.location.href.indexOf('registration')==-1)document.location.href=\"http://tourme.gr/tourme/wp-login.php?redirect_to=http%3A%2F%2Ftourme.gr%2Ftourme\";</script>";	
+			//Not Secure Needs to be re-written correctly in plugin
+	}
+	?>
+
+
 		
+	
+
+	
 	
 	
 	<div id="main" class="site-main">

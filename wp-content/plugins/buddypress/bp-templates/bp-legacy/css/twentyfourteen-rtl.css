@@ -629,7 +629,7 @@ body.activity-permalink #buddypress {
 /* groups & user account page entry title */
 .single-item.groups .entry-title,
 .bp-user .entry-title {
-	background: #4d4d4d;
+	background: #EA2628
 	color: #fff;
 	font-size: 22px;
 	font-size: 1.375rem;

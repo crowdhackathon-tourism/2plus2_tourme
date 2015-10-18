@@ -23,6 +23,17 @@ function testing() {
 	});
 }
 
+function explore(){
+	//http://192.168.29.1:8080/tourme-app/rest/2/suggestions
+	//alert("Exploring");	
+	
+	var address = "http://192.168.29.1:8080/tourme-app/rest/"+tme_user_id+"/suggestions";
+	alert(address);
+	
+	jQuery.getJSON(address, function (data) {
+		console.log(JSON.stringify(data));
+	});
+}
 
 function iframeRef( frameRef ) {
     return frameRef.contentWindow
@@ -140,5 +151,8 @@ function createAdventure(userId){
 if(document.location.href.indexOf('/tourme/index.php/main/')!=-1)
 	testing();
 
-if(document.location.href.indexOf('tourme/view-adventure/')!=-1)
-	viewAdventure();
+//if(document.location.href.indexOf('tourme/view-adventure/')!=-1)
+//	viewAdventure();
+
+ if(document.location.href.indexOf('tourme/explore-dev/')!=-1)
+	 explore();

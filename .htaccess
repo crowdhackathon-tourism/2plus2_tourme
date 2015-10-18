@@ -7,6 +7,10 @@ RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /tourme/index.php [L]
+
+Header unset X-Frame-Options
+Header always unset X-Frame-Options
 </IfModule>
+
 
 # END WordPress
