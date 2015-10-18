@@ -3,6 +3,8 @@ package gr.tourme.controllers;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Locale;
+import java.util.Set;
+import java.util.TreeSet;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -62,4 +64,21 @@ public class RestController {
 		return "OK";
 	}
 	
+	@CrossOrigin
+	@RequestMapping(value = "/rest/{user_id}/suggestions", method = RequestMethod.GET, produces = "application/json;charset=UTF-8" )
+	public @ResponseBody Set<Adventure> suggestedAdventures(@PathVariable Integer user_id) {
+		List<Adventure> userAdventures = aDAO.getAdventures(user_id);
+		// Get points close to Athens,Greeece
+		// CALL get_close_points(37.983917, 23.7293599, 500.0, NULL, NULL, NULL);
+
+		Set<Adventure> suggestions = new TreeSet<>();
+		
+		for (Adventure a:userAdventures)
+		{
+			suggestions.addAll(aDAO.getSuggestions(a.loc_latitude, a.loc_longitude, a.loc_radius_km, user_id));
+			logger.debug("suggestions2: {}.", suggestions);			
+		}
+		logger.debug("Called suggestedAdventures with user_id {}.", user_id);
+		return suggestions;
+	}
 }
