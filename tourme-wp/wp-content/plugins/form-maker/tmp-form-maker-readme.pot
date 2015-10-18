@@ -1,0 +1,1002 @@
+msgid ""
+msgstr "MIME-Version: 1.0\n"
+
+#. Name.
+msgid "Form Maker"
+msgstr ""
+
+#. Short description.
+msgid "WordPress Form Maker is a fresh and innovative form builder. This form builder is for generating various kinds of forms."
+msgstr ""
+
+#. Screenshot description.
+msgid "<a href=\"http://wordpress.org/plugins/form-maker/\">Wordpress Form</a> Maker - Sample RSVP"
+msgstr ""
+
+#. Screenshot description.
+msgid "Form Maker - Sample  form"
+msgstr ""
+
+#. Screenshot description.
+msgid "Form Maker - Manage forms"
+msgstr ""
+
+#. Screenshot description.
+msgid "Form Maker - Creating a new form"
+msgstr ""
+
+#. Screenshot description.
+msgid "Form Maker - form Text input field type"
+msgstr ""
+
+#. Screenshot description.
+msgid "Form Maker - form Captcha field type"
+msgstr ""
+
+#. Screenshot description.
+msgid "Form Maker - Manage submissions of form"
+msgstr ""
+
+#. Screenshot description.
+msgid "Form Maker - Select form Columns"
+msgstr ""
+
+#. Found in description header.
+msgid "Form Maker Add-ons:"
+msgstr ""
+
+#. Found in description header.
+msgid "IMPORTANT: If you think you found a bug in Form Maker or have any problem/question concerning the plugin, please check out [Support Forum](https://web-dorado.com/forum/26-form-maker.html) in our website. If you do not find a solution here, do not hesitate to contact us at [info@web-dorado.com](mailto:info@web-dorado.com)."
+msgstr ""
+
+#. Found in description header.
+msgid "Features of Form Maker"
+msgstr ""
+
+#. Found in description header.
+msgid "Supported languages Of Form Maker"
+msgstr ""
+
+#. Found in description list item.
+msgid "WordPress 3.0+  "
+msgstr ""
+
+#. Found in description list item.
+msgid "Multiple pre-installed sample forms "
+msgstr ""
+
+#. Found in description list item.
+msgid "Responsive layout and design  "
+msgstr ""
+
+#. Found in description list item.
+msgid "Limited up to 7 fields to add   "
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom HTML with standard editor  "
+msgstr ""
+
+#. Found in description list item.
+msgid "Simple text to add a limited input field into the form"
+msgstr ""
+
+#. Found in description list item.
+msgid "Password(protected input type form field) for signup forms"
+msgstr ""
+
+#. Found in description list item.
+msgid "Text area allowing to shrunk the text form field wherever the text is longer than the field itself"
+msgstr ""
+
+#. Found in description list item.
+msgid "Name form field with customizable field labels (this form field includes two formats: Normal (only first and last name included) and extended (with a possibility of adding up to four sections within a single form field)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Address form field with a chance to remove some of the fields from the form and possibility of editing field labels"
+msgstr ""
+
+#. Found in description list item.
+msgid "Address (Mark on Map) to create an address form field using Google API integration"
+msgstr ""
+
+#. Found in description list item.
+msgid "E-mail for providing emails (gets validated for the type during the form submission)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Number for numerical form field"
+msgstr ""
+
+#. Found in description list item.
+msgid "Phone form field with a possibility to edit the field labels in the backend"
+msgstr ""
+
+#. Found in description list item.
+msgid "Hidden fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Time and Date form fields with a possibility of adding date pickers and time pickers for registration forms, booking and similar forms "
+msgstr ""
+
+#. Found in description list item.
+msgid "Custom select and country select (drop-down lists)  "
+msgstr ""
+
+#. Found in description list item.
+msgid "Checkbox for multiple choices questions in the form  "
+msgstr ""
+
+#. Found in description list item.
+msgid "Radio button for single choice questions in the form "
+msgstr ""
+
+#. Found in description list item.
+msgid "Captcha/ReCaptcha for using safer forms  "
+msgstr ""
+
+#. Found in description list item.
+msgid "Page break for form pagination  "
+msgstr ""
+
+#. Found in description list item.
+msgid "Section break for creating multi-section forms "
+msgstr ""
+
+#. Found in description list item.
+msgid "Map for inserting Google Map into the form "
+msgstr ""
+
+#. Found in description list item.
+msgid "Submit, Reset and Custom Button  "
+msgstr ""
+
+#. Found in description list item.
+msgid "41 editable themes for different form designs  "
+msgstr ""
+
+#. Found in description list item.
+msgid "Up to seven field forms for free version   "
+msgstr ""
+
+#. Found in description list item.
+msgid "Form Layout changing possibility   "
+msgstr ""
+
+#. Found in description list item.
+msgid "IP blocking possibility    "
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to include required field option to receive specific information from the form submitter  "
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to edit the form CSS or add custom Javascript into the form  "
+msgstr ""
+
+#. Found in description list item.
+msgid "Includes additional attributes for each form field for adding properties with Java Script (for more advanced form users)  "
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to receive the filled forms to the admin and form submitter (if applicable) emails"
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to add custom text in the emails sent to the administrators and form submitter  "
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to edit and change the Email and the Name, which are displayed with the form submission sent to the form submitter, thus allowing to have a feedback to a specific email"
+msgstr ""
+
+#. Found in description list item.
+msgid "Form Maker Shortcode button in WordPress standard editor to make the form inserting process easier, whereas it is also possible to change the form in the page/post just changing the ID of the form in the shortcode   "
+msgstr ""
+
+#. Found in description list item.
+msgid "Data validation for all form fields while submitting the form"
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to preview the form, as well as form themes"
+msgstr ""
+
+#. Found in description list item.
+msgid "Detailed Form Maker User Manual describing form installation process, detailed form field descriptions, the process of inserting created form into your site and other details for the Form Users     "
+msgstr ""
+
+#. Found in description list item.
+msgid "Required  and hidden form fields "
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to customize button styles used in the form"
+msgstr ""
+
+#. Found in description list item.
+msgid "Form Pagination possibility"
+msgstr ""
+
+#. Found in description list item.
+msgid "Customizable themes to edit the design of the forms"
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to edit the form titles whenever required"
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to create forms based on the default forms with the “Save as Copy” button"
+msgstr ""
+
+#. Found in description list item.
+msgid "This form builder supports multiple languages allowing you to create forms in user-native languages"
+msgstr ""
+
+#. Found in description list item.
+msgid "Page redirect possibility after the form is submitted, allowing to navigate not only to specific pages (e.g. including other forms) or to another site (providing URL)"
+msgstr ""
+
+#. Found in description list item.
+msgid "Functional and easy to use back end; you can use navigation arrows to move the created form fields in the same page and even to move the form field from one form page to another"
+msgstr ""
+
+#. Found in description list item.
+msgid "Filled information is kept in database section of the form"
+msgstr ""
+
+#. Found in description list item.
+msgid "Detailed submissions field providing the ID of the submitter, the submission date, form submitter’s IP address and all of the form fields"
+msgstr ""
+
+#. Found in description list item.
+msgid "Searchable Submissions field to find relevant submitted forms in the database"
+msgstr ""
+
+#. Found in description list item.
+msgid "One form based submissions allowing to get separate data for each form    "
+msgstr ""
+
+#. Found in description list item.
+msgid "Submissions section includes simple statistical data for the choice-based entries    "
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to use Export CSV/XML feature to download the submitted forms and to analyze the data with advanced tools    "
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to edit form submissions, deleting the columns of irrelevant form submissions or for sorting the data   "
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to hide and unhide specific form fields from demonstrating in the Submissions    "
+msgstr ""
+
+#. Found in description list item.
+msgid "There is a possibility to add custom text which will be displayed when the field is empty to give the users samples or instruction when filling the specific field.    "
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to have pre-filled texts serving as instructions for the textarea and other text fields.   "
+msgstr ""
+
+#. Found in description list item.
+msgid "Date picker in the form of drop-down menu for easier date selection.   "
+msgstr ""
+
+#. Found in description list item.
+msgid "Submissions section displays the amount of entries, as well as views and conversion rate for each separate form.  "
+msgstr ""
+
+#. Found in description list item.
+msgid "CC and BCC mail options for sending out the submitted form  "
+msgstr ""
+
+#. Found in description list item.
+msgid "41 responsive theme with customizable design   "
+msgstr ""
+
+#. Found in description list item.
+msgid "Displaying the country, country code and other date in the Submissions section IP pop-up   "
+msgstr ""
+
+#. Found in description list item.
+msgid "MySQL Mapping possibility for storing entered data to another MySQL database.   "
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to choose whether to save the data to database or just have the information emailed to the Administrator.   "
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to insert separate Country select list for the custom fields rather than address.   "
+msgstr ""
+
+#. Found in description list item.
+msgid "Conditional fields, which can be used for hiding/displaying a list of questions based on the selection of specific answers.   "
+msgstr ""
+
+#. Found in description list item.
+msgid "Option of displaying form pages using tabs or percentage.   "
+msgstr ""
+
+#. Found in description list item.
+msgid "unlimited number of form fields       "
+msgstr ""
+
+#. Found in description list item.
+msgid "PayPal form field with currency change possibility   "
+msgstr ""
+
+#. Found in description list item.
+msgid "Upload file field    "
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to choose the desired file extension types for the file upload form field     "
+msgstr ""
+
+#. Found in description list item.
+msgid "Fully integrated with PayPal: two checkout modes (Test Mode and Production) and five form field types (Amount, Select, Checkbox, Radio, and Shipping)(commercial version of the Form Maker), possibility to use the form as a payment/donation form     "
+msgstr ""
+
+#. Found in description list item.
+msgid "Google Maps API Integration, possibility to use the maps in two different form fields of the Form Maker     "
+msgstr ""
+
+#. Found in description list item.
+msgid "Possibility to include tax percentage within PayPal options for the localization of the payment"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Form Maker is a FREE and user-friendly plugin to create highly customizable and responsive forms in a few minutes with simple drag and drop interface."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "https://www.youtube.com/watch?v=QelKxyW7M98"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Form Maker is one of the best responsive form builders in WordPress Plugin Directory. WordPress Form Builder allows you to set all the parameters such as colors, fonts and dimensions to best fit all form standards. If you want to make minimalistic forms, you can build forms with pre-filled texts, avoiding long form field labels. If want to build simple contact forms with unlimited number of fields, then you can use  <a href=\"http://wordpress.org/extend/plugins/contact-form-maker/\">WordPress Contact Form</a>."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Form Maker is a fresh and innovative form builder for generating various kinds of forms. The back end of the Form Maker is essential and easy to use, with no need of advanced programming skills."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The Form Maker uses a number of customizable themes.  You can choose the design of the form to fit your website/webpage. Moreover, the Form Maker theme CSS is open for editing and making necessary changes, for creating a custom form design. To choose the best fitting form design, you can first preview the created forms changing the form theme and pressing preview button."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "WordPress Form Maker can be used both for simple and multipart forms. That is why this form builder is a perfect choice for the beginners, who are just starting with forms and also meets the needs of experts (with advanced themes and multiple form customization possibilities). This form builder can be used for creating simple forms, survey forms and questionnaires, registration and application forms and etc."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "The commercial version of the Form Maker has Google Map integration for the geolocation as well as pre-filled address demonstration in the forms. The details of the longitude and latitude can be provided in the back end of the form."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "To make the process of creating forms easier, the package includes a list of pre-installed forms for different purposes. There is a possibility of saving those forms as copies and editing them to fit your needs."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "PayPal integration of the Form Maker (commercial version) allows you to add PayPal features into the form, thus making it possible to use the Form Maker as a great tool for creating donation forms, whereas Survey Tools form field allows creating manageable questionnaire forms."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "This form builder has a Captcha field to protect from receiving spam with the forms. The form field comes with two options: a simple Captcha and ReCaptcha (the famous Captcha by Google)."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "CSV/XML export possibility allows using the submitted data for data analysis and data presentation creating charts, diagrams and other visual forms."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "To make larger forms fit and look great on your pages and posts, you can use pagination option, cutting the form into multiple pages."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Possibility of sending submitted form to various emails, providing them in Email to Field and separating by comma."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Survey tools are also very convenient for adding rating systems for the posts, e.g. for contests."
+msgstr ""
+
+#. Found in description paragraph.
+msgid "Upgrade to <a href=\"https://web-dorado.com/products/wordpress-form.html\">WordPress Form Maker Pro</a> to add features:"
+msgstr ""
+
+#. Found in description paragraph.
+msgid "<em>If you need language of Form Maker which is not included in this list, please contact us and we will do the translation of Form Maker within 3 days. If you find any mistakes in the translation, please contact us and we will make relevant corrections within 3 days.</em>"
+msgstr ""
+
+#. Found in installation header.
+msgid "Thank you for your interest in <a href=\"http://wordpress.org/plugins/form-maker/\">Wordpress Form</a> Maker."
+msgstr ""
+
+#. Found in installation header.
+msgid "Minimum requirements."
+msgstr ""
+
+#. Found in installation header.
+msgid "Perform a new installation"
+msgstr ""
+
+#. Found in installation header.
+msgid "Updating Form Maker."
+msgstr ""
+
+#. Found in installation list item.
+msgid "Wordpress 3.4+  "
+msgstr ""
+
+#. Found in installation list item.
+msgid "PHP 5.x  "
+msgstr ""
+
+#. Found in installation list item.
+msgid "MySQL 5.x  "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Log in to the administrator panel.  "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Go to Plugins Add &gt; New &gt; Upload.  "
+msgstr ""
+
+#. Found in installation list item.
+msgid "Click “Install Now” button.  "
+msgstr ""
+
+#. Found in installation paragraph.
+msgid "After downloading the ZIP file,"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "fix security issue which was reported by Mateusz Lach"
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Added featured plugins  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "From Name, From Email in Form options  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Survey Tools (Star Rating, Scale Rating, Spinner, Slider, Range, Grading, Matrix)  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Customizable Email message for Administrator and Users  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Actions after form Submission:  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Stay on form:   "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "To go to Post,Page after the form submission:  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Custom text after the form submission:   "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "URL: The user is redirected to the provided URL after the form submission.  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Edit javascript of the form:  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Save as the copy of the form:  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Themes: There are 43 standard themes included in Form Maker  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "New form fields:  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Address field  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Address mark on map form field  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Number form field  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Phone form field  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Date 3 different form field  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Time form field  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Country list form field  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Recapthca form field  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Pagebreak of the <a href=\"http://wordpress.org/plugins/form-maker/\">Wordpress Form</a> Maker: This can be used to break the form into distinct pages.  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Section Break of the Form Maker: This option allows adding a section break to the form page.  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "For each form certain types of statistical data are available in the form builder:  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Entries of a form: The number of submitted forms in the form builder.  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Views of a form: The number of times the form has been viewed.  "
+msgstr ""
+
+#. Found in changelog list item.
+msgid "Conversion Rate of a form: The percentage of submitted forms to the overall number of views.  "
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Changed: CSV/XML export"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed: Bug in conditional fields"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New Add-on: PDF Integration"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New: Google Drive Integration Add-on"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed: Bug in demo forms"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed: Bug in update"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Changed: Notices"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Changed: Themes"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New: Dropbox Integration Add-on"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed: Minor bugs"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New: Notices"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New Add-on: Conditional Emails"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Changed: Styles"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Minor bug fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Changed: Compability with WordPress 4.3"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed: Bug in Undo/Rendo"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New: Post Generation Add-on"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed: Minor bug"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New: Add-ons page logo"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New Add-on: User Registration"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New: Form Maker Add-ons page"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed: Bug in csv/xml export"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Fixed: Security issue"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New: Undo/Rendo form"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug in conditional fields fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug in select field fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "minor bugs fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug in radio and matrix fields fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Show custom html and section break id"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New: Option to disable past days in date picker"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "security issue fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New: Email verification"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Allow to use entry values in \"Custom text after submission\""
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Optimize csv/xml export"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "New: Email empty fields option"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug in address field fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Cache issue fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug fixed in csv\\xml export"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug fixed in email content"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "remove fancybox lightbox"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "display php function to publish form"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug in Recaptcha fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Form field reordering using Drag&amp;Drop"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "wp 4.0.1 shortcode issue fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "pagination with input"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug fixed in condition fileds"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "show submitter information in popup (Country, CountryCode, City, Latitude, Longitude)"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "csv, xml export mark on map"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "sql mapping"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "extended name edit bug fixed (if first input is empty)"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "hidden field edit bug fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "line break in custom text in email"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug fixed in required radio field"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug fixed in adding new form"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "new email options, conditional fileds"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "conflict with jetpack fixed"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug fixed in form options"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "improve themes"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "bug fixed in email options"
+msgstr ""
+
+#. Found in changelog paragraph.
+msgid "Initial version"
+msgstr ""
+
+#. Found in faq header.
+msgid "1. What are the most common usage cases for the Form Maker?"
+msgstr ""
+
+#. Found in faq header.
+msgid "2. Where are the submitted entries stored?"
+msgstr ""
+
+#. Found in faq header.
+msgid "3. Are there any limitations on the number of forms or entries to be used within a single website?"
+msgstr ""
+
+#. Found in faq header.
+msgid "4. What can I use to avoid Spam entries?"
+msgstr ""
+
+#. Found in faq header.
+msgid "5. Is it possible to translate the Form Maker into another language?"
+msgstr ""
+
+#. Found in faq header.
+msgid "6. What to do if Administrator and/or user do not receive submissions by email?"
+msgstr ""
+
+#. Found in faq header.
+msgid "7. Is the Form Maker fully responsive?"
+msgstr ""
+
+#. Found in faq header.
+msgid "8. How can I analyze the submitted data?"
+msgstr ""
+
+#. Found in faq header.
+msgid "9. How can I hide specific form fields/make them appear depending on another field value?"
+msgstr ""
+
+#. Found in faq header.
+msgid "10. What payment options does Form Maker support?"
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The Form Maker can be used for creating multiple types of forms, including contact, evaluation, application forms, quizzes/tests or surveys, online order forms and etc. The Form Maker includes various types of fields which can be modified and edited."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "There is a Submissions section, where you will find the submitted entries. The entries can also be emailed to the Administrator. For this you should provide an email in Email Options section (located within Form Options). You can also fill in the data into a custom table using MySQL Mapping possibility, which makes it possible to store the data into another MySQL database."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "There are no limitations on the number of entries per form. You can use unlimited number of forms within each website."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The Form Maker has two type of word verifications- Standard Captcha and Google ReCaptcha protection. If you are receiving spam entries from a single or a few IPs, you can use Blocking IPs option."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "It is only possible to translate the front end of the plugin. To do so, you should set define('WPLANG','[lang_code]') to the desired language code in wp_config.php file of your website. This way the plugin should be translated automatically. Please be informed, that you can modify the translations from wp-content/plugins/form_maker/languages/ (you will need POEdit http://www.poedit.net/download.php)."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "After installation please use the test option. If the test email doesn’t get send out contact your hosting provider to fix the issue."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "Yes, the WordPress Form Maker is fully responsive and works with various smartphones and tablets."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The Form Maker has separate section for the Statistical type of entries (Select fields, checkboxes and radio buttons). In addition there are two export options- into CSV or XML format.  You can import CSV into Excel for data processing."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The Form Maker has support for the Conditional fields. The option can be found in the Form Options. The structure of the conditional fields is the following:  You can specify to show/hide a field, when the condition is true and provide the condition below, e.g. Show “How many visitors will you have” if “Will you have visitors” is “Yes”."
+msgstr ""
+
+#. Found in faq paragraph.
+msgid "The Form Maker (Pro version) has simple PayPal integration. This allows the user to select specific items and upon hitting submit button get redirected to PayPal. After making the payment, the user gets back to the website."
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Wordpress Form Maker Step by step guide"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Step 1: Installing the [Wordpress Form](http://wordpress.org/plugins/form-maker/) Maker"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Step 2: Creating a new form"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Step 3: Configuring Form Builder Options"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Step 4: Description of the form fields"
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Step 5: Publishing the created form."
+msgstr ""
+
+#. Found in remaining content header.
+msgid "Step 6: Managing submissions of the form."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "1.3 Updating the form."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "If you want to update the form builder plugin while preserving your existing forms, you need to deactivate and delete the Form Maker from the list of installed plugins (Do not uninstall it using the Uninstall Form Maker option of the plugin, otherwise you will lose your initial data) and install the new plugin."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "4.1 Custom HTML:An HTML editor. You can insert your own HTML content to your WordPress form builder."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "4.6 Radio:This form field can be used for selecting the values from a list of radio buttons. The list can be defined by Options attribute. You can use Rows/Columns field if you want the options to be displayed in a row/column (depending on the positioning choice). The number of rows/columns should be specified. You can easily add and remove list items. The list can be displayed in horizontal/vertical positions by setting the Relative Position attribute.The field has several attributes: Field Id, Field Name, Field Label, Field Label Position, Field Size, Class Name, Required, Randomize in frontend, Allow other, Additional Attributes."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "4.7 File Upload: This form field can be used for uploading files. The size of the uploaded file can be limited by setting the value of Maximum Size attribute in KB. The upload folder can be mentioned by setting the Destination attribute. Only files with extensions listed in Allowed file extensions attribute can be uploaded. The field has several attributes: Field Id, Field Name, Field Label, Field Label Position, Class Name, Required, Additional Attributes."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "4.10 Section Break: This option allows adding a section break to the form page."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "To insert a form into a Page or a Post."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "5.1. Press the button named Insert Form Maker in a post or a page you want to show the form."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "5.2. Select a form from the list."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "5.3. Save the page or the post."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "Alternatively, you can use form builder without the button on the toolbar. Add the shortcode [Form id=\"N\"] (where N is the id of the form, for the form with id=2, the shortcode must be [Form id=\"2\"]) to the pages and posts, where you want the form to appear. For each form you can find the relevant shortcode from Manager view, it is stored on the right corner of the form title."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "6.1 On the left menu select Form Maker &gt; Submissions"
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "6.2 In order to manage a form's submissions, select the form from the list."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "6.4 For the forms that contain checkboxes or radio buttons a separate statistics is available. It shows how many times a particular checkbox/radio button has been checked, and what is the ratio of that number to the overall number of checks."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "6.5 Form builder allows to search the submissions database by all the relevant fields of the given form. Submissions can be sorted by any of the fields of the form by clicking the labels."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "6.6 Form builder allows to delete any of submissions by selecting them and pressing the “Delete” button on the top of the page."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "6.7 Form builder allows to edit the submissions by clicking on the “Edit” icon on the upper right corner of the “Submissions” section."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "6.8 Form builder allows to add/remove any column of the submissions by “Add/Remove Columns” button."
+msgstr ""
+
+#. Found in remaining content paragraph.
+msgid "6.9 The submissions can be exported to the CSV and XML formats."
+msgstr ""
