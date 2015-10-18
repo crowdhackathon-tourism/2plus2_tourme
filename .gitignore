@@ -1,6 +1,5 @@
-/.settings
-/target
-/.project
-/.springBeans
-/.settings
-/.classpath
+/java-rest/.settings
+/java-rest/target
+/java-rest/.project
+/java-rest/.springBeans
+/java-rest/.classpath
