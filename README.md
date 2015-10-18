@@ -1,6 +1,14 @@
 # 2plus2_tourme
 Find your tour mate
 
+Authors:
+
+Bakopoulos Menelaos (menelaosbgr@gmail.com)
+Brani Katerina (katerina.brani@gmail.com)
+Kaidantzi Kerry (kerrykaidantzi@hotmail.com)
+Katsarakis Nikos (nkatsar@freemail.gr)
+
+
 ```
 project
 │   .gitignore: git ignore file
@@ -15,6 +23,7 @@ project
 ├───presentation: The presentation of crowdhackathon on 2015-10-18
 |
 └───tourme-wp: Responsive mobile user interface powered by Wordpress
+               User management powered by Buddypress
 ```
 
 Instructions to install:
@@ -31,3 +40,6 @@ Instructions to install:
 -- java-rest is a typical Maven project, it can be deployed on any Java application server
    MySQL settings should be configured in tourme-app/src/main/webapp/WEB-INF/spring/root-context.xml
    
+Wordpress admin username: tourme,  password: t0urm3, url: tourme.gr/tourme/wp-admin
+
+In order to run the WordPress Frontent on mobile emulator, uncomment the respective lines in tourme-wp/.htaccess

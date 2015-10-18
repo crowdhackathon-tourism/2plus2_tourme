@@ -1,0 +1,4 @@
+The source code and resources are licensed under CC BY-SA 4.0
+http://creativecommons.org/licenses/by-sa/4.0/deed.en
+
+The plugins and frameworks used are licenced under their respective license.

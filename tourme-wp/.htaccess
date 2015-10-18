@@ -8,8 +8,10 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /tourme/index.php [L]
 
-Header unset X-Frame-Options
-Header always unset X-Frame-Options
+# Uncomment the following lines to test application
+# in mobile web emulator (INCREASES SECURITY RISK)
+# Header unset X-Frame-Options
+# Header always unset X-Frame-Options
 </IfModule>
 
 
