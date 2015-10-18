@@ -31,7 +31,12 @@ function explore(){
 	alert(address);
 	
 	jQuery.getJSON(address, function (data) {
+		var profiles = JSON.stringify(data);
 		console.log(JSON.stringify(data));
+		
+		var currentProfile = data[0];
+		console.log(currentProfile);
+		document.getElementById("explore_profile").src = currentProfile.user_photo_url;
 	});
 }
 
