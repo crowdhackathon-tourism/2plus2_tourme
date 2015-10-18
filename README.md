@@ -1,13 +1,19 @@
 # 2plus2_tourme
 Find your tour mate
 
-Authors:
+## Authors
 
 Bakopoulos Menelaos (menelaosbgr@gmail.com)
 Brani Katerina (katerina.brani@gmail.com)
 Kaidantzi Kerry (kerrykaidantzi@hotmail.com)
 Katsarakis Nikos (nkatsar@freemail.gr)
 
+
+## Design-Online Interactive Mockup
+
+Concurrently with development of backend functionallities and configuration our designers produced a semi-interactive online mockup: https://marvelapp.com/1c26029
+
+## Project Structure
 
 ```
 project
@@ -26,7 +32,7 @@ project
                User management powered by Buddypress
 ```
 
-Instructions to install:
+## Instructions to install
 
 -- tourme-wp can be copied on the htdocs of an Apache HTTP Server with PHP/MySQL support
    it is much easier to install on a XAMPP 
