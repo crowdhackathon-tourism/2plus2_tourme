@@ -48,12 +48,7 @@ public class RestController {
 	@RequestMapping(value = "/rest/{user_id}/adventures", method = RequestMethod.GET, produces = "application/json;charset=UTF-8" )
 	public @ResponseBody List<Adventure> userAdventures(@PathVariable Integer user_id) {
 		logger.debug("Called rest with user_id {}.", user_id);
-		if (user_id<=0)
-			return new ArrayList<Adventure>();
-		
-		List<Adventure> adventureList = aDAO.getAdventures(user_id);
-		
-		return adventureList;
+		return aDAO.getAdventures(user_id);
 	}
 
 	@CrossOrigin
@@ -63,6 +58,7 @@ public class RestController {
 		logger.debug("Received data for user " + user_id +", adventure: " + adventure);
 		logger.info("imageurl: " + adventure.loc_photo_url);
 		adventure.user_id = user_id;
+		aDAO.insert(adventure);
 		return "OK";
 	}
 	

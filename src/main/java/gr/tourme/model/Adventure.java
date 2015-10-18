@@ -1,27 +1,24 @@
 package gr.tourme.model;
 
+import java.math.BigDecimal;
 import java.util.List;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-
 public class Adventure {
-	@JsonIgnore
 	public Integer adventure_id;
-	@JsonIgnore
 	public Integer user_id;
 	public String title;
 	public String description;
 	public String loc_name;
 	public String loc_address;
-	public Double loc_latitude;
-	public Double loc_longitude;
-	public Double loc_radius_km;
+	public BigDecimal loc_latitude;
+	public BigDecimal loc_longitude;
+	public BigDecimal loc_radius_km;
 	public String loc_photo_url;
 	public String date_start;
 	public String date_end;
 	public Integer interest_age_min;
 	public Integer interest_age_max;
-	public Integer interest_gender;
+	public String interest_gender;
 	public String interest_relationship;
 	public String op_budget;
 	public List<String> op_accomodation;
