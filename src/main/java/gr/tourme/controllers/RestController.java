@@ -1,6 +1,7 @@
 package gr.tourme.controllers;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Locale;
 import java.util.Set;
@@ -66,12 +67,12 @@ public class RestController {
 	
 	@CrossOrigin
 	@RequestMapping(value = "/rest/{user_id}/suggestions", method = RequestMethod.GET, produces = "application/json;charset=UTF-8" )
-	public @ResponseBody Set<Adventure> suggestedAdventures(@PathVariable Integer user_id) {
+	public @ResponseBody List<Adventure> suggestedAdventures(@PathVariable Integer user_id) {
 		List<Adventure> userAdventures = aDAO.getAdventures(user_id);
 		// Get points close to Athens,Greeece
 		// CALL get_close_points(37.983917, 23.7293599, 500.0, NULL, NULL, NULL);
 
-		Set<Adventure> suggestions = new TreeSet<>();
+		List<Adventure> suggestions = new ArrayList<>();
 		
 		for (Adventure a:userAdventures)
 		{
@@ -79,6 +80,12 @@ public class RestController {
 			logger.debug("suggestions2: {}.", suggestions);			
 		}
 		logger.debug("Called suggestedAdventures with user_id {}.", user_id);
+		
+		//Sort by distance
+		Collections.sort(suggestions);
+
+		//Remove duplicates
+		Set<Adventure> uniqueSuggestions = new TreeSet<>(suggestions);
 		return suggestions;
 	}
 }

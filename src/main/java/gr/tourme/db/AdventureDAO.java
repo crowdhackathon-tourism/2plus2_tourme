@@ -107,8 +107,11 @@ public class AdventureDAO {
 			else
 				adv.op_accomodation = new ArrayList<String>();
 			adv.op_interests=rs.getString("op_interests");
-			adv.op_habbits=rs.getString("op_habbits");			
-			adv.distance=rs.getDouble("distance");
+			adv.op_habbits=rs.getString("op_habbits");
+			if (rs.getString("distance")==null)
+				adv.distance=null;
+			else
+				adv.distance=rs.getDouble("distance");
 			adv.user_photo_url=rs.getString("user_photo_url");
 			return adv;
 		}

@@ -29,19 +29,9 @@ public class Adventure implements Comparable<Adventure>{
 
 	public int compareTo(Adventure o)
 	{
-		if(this.distance == null && o.distance == null)
-			return 0;
-		if(this.distance == null)
+		if(this.adventure_id < o.adventure_id)
 			return -1;
-		if(o.distance == null)
-			return 1;
-		if(this.adventure_id == o.adventure_id)
-		{
-			return 0;
-		}
-		if(this.distance<o.distance)
-			return -1;
-		if(this.distance>o.distance)
+		if(this.adventure_id > o.adventure_id)
 			return 1;
 		return 0;
 	}
