@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<head>
+	<title>Google Maps Latitude and Longitude Picker jQuery plugin</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<link rel="stylesheet" type="text/css" href="css/demo.css"/>
+
+	<!-- Dependencies: JQuery and GMaps API should be loaded first -->
+	<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+	<!-- CSS and JS for our code -->
+	<link rel="stylesheet" type="text/css" href="css/jquery-gmaps-latlon-picker.css"/>
+	<script src="js/jquery-gmaps-latlon-picker.js"></script>
+	
+	<style>
+		body {    
+		margin: 0 ;
+		padding: 0 
+		}
+	</style>
+</head>
+<body>
+
+<form>
+	<fieldset class="gllpLatlonPicker">
+		<input type="text" class="gllpSearchField" id="addressSearch">
+		<input type="button" class="gllpSearchButton" value="search">
+		<br/><br/>
+		<div class="gllpMap" width="500">Google Maps</div>
+		<br/>
+		lat/lon:
+			<input type="text" class="gllpLatitude" id="lat" value="37"/>
+			/
+			<input type="text" class="gllpLongitude" id="lon" value="23"/><br/>
+		zoom: <input type="text" class="gllpZoom" value="3"/>
+		<input type="button" class="gllpUpdateButton" value="update map">		
+	</fieldset>
+	<br/>Eastimated Viewable Map Area (from center to SE corner in km): <div id="tourme_zoom"></div>
+</form>
+</body>
+</html>
