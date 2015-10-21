@@ -59,6 +59,8 @@ project
    Also please change the address 192.168.29.1:8080 in "tourme-wp/js/tourme.js" with the 
    address of the Java REST application server
    and update MySQL settings in tourme-wp/wp-config.php
+   
+   Additionally, forms wordpress page structures are stored within the wordpress database as opposed to written in project code.
 
 -- java-rest is a typical Maven project, it can be deployed on any Java application server
    MySQL settings should be configured in tourme-app/src/main/webapp/WEB-INF/spring/root-context.xml
@@ -75,4 +77,11 @@ Once tourme-wp is installed in your server, you can go to tourme.gr (after perfo
 
 To see a list of the adventures created by a specific user (in JSON format), you can go to {REST-IP:PORT}/rest/{user\_id}/adventures using your web browser, where {REST-IP:PORT} is the address/port of the Java application server and {user\_id} is the id of any registered user (try the numbers 1-7). To see a list of suggested adventures for a specific user, go to {REST-IP:PORT}/rest/{user\_id}/suggestions. **NOTE:** that there are currently **NO** security restrictions in the REST interface.
 
+## Usefull or Necessary Improvements
 
+For anyone interested to use this project, and for ongoing development:
+- Usage of a wordpress child theme instead of making changes directly to an existing wordpress theme.
+- Maybe useful to use proxypass apache configuration to place tomcat behind apache frontend.
+- Improvement to UI using a JQuery Mobile Theme to improve forms and map.
+- Necessary: Improvement of security and passing of session data such as user ID between php, javascript, and java rest.
+- Necessary: Implementation of a single sign on mechanism between wordpress and java rest service.
