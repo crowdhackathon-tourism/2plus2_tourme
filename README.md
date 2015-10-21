@@ -1,17 +1,34 @@
 # 2plus2_tourme
 Find your tour mate
 
-## Authors
+## Authors (in alphabetic order)
 
-Bakopoulos Menelaos (menelaosbgr@gmail.com)
-Brani Katerina (katerina.brani@gmail.com)
-Kaidantzi Kerry (kerrykaidantzi@hotmail.com)
-Katsarakis Nikos (nkatsar@freemail.gr)
+- Bakopoulos Menelaos (menelaosbgr@gmail.com)  - Frontend Developer
+- Brani Katerina (katerina.brani@gmail.com) - Designer
+- Kaidantzi Kerry (kerrykaidantzi@hotmail.com) - Designer
+- Katsarakis Nikos (nkatsar@freemail.gr) - Backend Developer
 
+## Description
+
+Do you like traveling and meeting new people? If yes, you can combine both using our unique tool.
 
 ## Design-Online Interactive Mockup
 
 Concurrently with development of backend functionallities and configuration our designers produced a semi-interactive online mockup: https://marvelapp.com/1c26029
+
+## Features (implemented during crowdhackathon-tourism on 17-18 October 2015)
+- User registration using 
+- Creation of new adventures
+- Receive list of own adventures (REST interface only)
+- Receive list of suggested adventures (REST interface only)
+
+## Technologies used
+- Responsive mobile user interface powered by Wordpress
+- User management powered by Buddypress
+- Custom code for frontend in PHP / Javascript / JQuery
+- REST interface written in JAVA using Spring Framework
+- MariaDB (or any MySQL compatible database) for the DB layer
+
 
 ## Project Structure
 
@@ -49,3 +66,13 @@ project
 Wordpress admin username: tourme,  password: t0urm3, url: tourme.gr/tourme/wp-admin
 
 In order to run the WordPress Frontent on mobile emulator, uncomment the respective lines in tourme-wp/.htaccess
+
+
+## Usage
+
+Once tourme-wp is installed in your server, you can go to tourme.gr (after performing the required change in your hosts file) and sign up either directly or by using facebook. You will also be able to select your preferences, which will be stored in the database. Feel free to browse through the menus, keeping in mind that that most of them are placeholders. However the form to create a new adventure is fully functional, you can select your target location using the provided map, noting that the range you are willing to visit from your selected point depends on the zoom level.
+
+
+To see a list of the adventures created by a specific user (in JSON format), you can go to {REST-IP:PORT}/rest/{user\_id}/adventures using your web browser, where {REST-IP:PORT} is the address/port of the Java application server and {user\_id} is the id of any registered user (try the numbers 1-7). To see a list of suggested adventures for a specific user, go to {REST-IP:PORT}/rest/{user\_id}/suggestions. **NOTE:** that there are currently **NO** security restrictions in the REST interface.
+
+
