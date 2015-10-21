@@ -78,7 +78,7 @@ Please note, most of the content in the front-end are stored within the wordpres
 
 To see a list of the adventures created by a specific user (in JSON format), you can go to {REST-IP:PORT}/rest/{user\_id}/adventures using your web browser, where {REST-IP:PORT} is the address/port of the Java application server and {user\_id} is the id of any registered user (try the numbers 1-7). To see a list of suggested adventures for a specific user, go to {REST-IP:PORT}/rest/{user\_id}/suggestions. **NOTE:** that there are currently **NO** security restrictions in the REST interface.
 
-## Usefull Improvements
+## Useful Improvements
 
 For anyone interested to use this project, and for ongoing development, it would be useful to:
 - Change to using a wordpress child theme instead of making changes directly to an existing wordpress theme.
