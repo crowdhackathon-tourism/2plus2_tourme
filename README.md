@@ -59,8 +59,6 @@ project
    Also please change the address 192.168.29.1:8080 in "tourme-wp/js/tourme.js" with the 
    address of the Java REST application server
    and update MySQL settings in tourme-wp/wp-config.php
-   
-   Additionally, forms wordpress page structures are stored within the wordpress database as opposed to written in project code.
 
 -- java-rest is a typical Maven project, it can be deployed on any Java application server
    MySQL settings should be configured in tourme-app/src/main/webapp/WEB-INF/spring/root-context.xml
@@ -72,8 +70,7 @@ In order to run the WordPress Frontent on mobile emulator, uncomment the respect
 
 ## Usage
 
-Once tourme-wp is installed in your server, you can go to tourme.gr (after performing the required change in your hosts file) and sign up either directly or by using facebook. You will also be able to select your preferences, which will be stored in the database. Feel free to browse through the menus, keeping in mind that that most of them are placeholders. However the form to create a new adventure is fully functional, you can select your target location using the provided map, noting that the range you are willing to visit from your selected point depends on the zoom level.
-
+Once tourme-wp is installed in your server, you can go to tourme.gr (after performing the required change in your hosts file) and sign up either directly or by using facebook. You will also be able to select your preferences, which will be stored in the database. Feel free to browse through the menus, keeping in mind that that most of them are placeholders. However the form to create a new adventure is fully functional, you can select your target location using the provided map, noting that the range you are willing to visit from your selected point depends on the zoom level. Please not, most of the content in the front-end are stored within the wordpress DB as opposed to project code files (this is the case with most WP).
 
 To see a list of the adventures created by a specific user (in JSON format), you can go to {REST-IP:PORT}/rest/{user\_id}/adventures using your web browser, where {REST-IP:PORT} is the address/port of the Java application server and {user\_id} is the id of any registered user (try the numbers 1-7). To see a list of suggested adventures for a specific user, go to {REST-IP:PORT}/rest/{user\_id}/suggestions. **NOTE:** that there are currently **NO** security restrictions in the REST interface.
 
