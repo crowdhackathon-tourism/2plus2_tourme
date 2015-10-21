@@ -1,10 +1,5 @@
 # 2plus2_tourme
 
-Description: The TourMate application aims to romantically match people who are interested to travel/see common destinations (both local and far away). A user can register/login to the application using only their facebook account and create personal "Adventures" that declare where they want to go, their travel perferences (e.g. budget, hotel, etc.), and with which sex they would like to travel with. The application looks for people with matching adventures and proposes these people, and their adventures, to one another provided their preferences match. If two users "like" each other there is a match and the users would then be able to talk and discuss further trip details. 
-
-Description(Greek):
-Η εφαρμογή TourMate ταιριάζει ανθρώπους που έχουν κοινό προορισμό και έχουν δείξει ενδιαφέρον ο ένας για τον άλλον. Ο χρήστης μπορεί να συνδεθεί στην εφαρμογή μέσω Facebook ή να δημιουργήσει λογαριασμό και να δημιουργήσει ταξίδια-περιπέτειες δηλώνοντας που θέλει να πάει ,το στυλ του ταξιδιού του, τα ενδιαφέροντά του και το με τι φύλο θέλει να ταξιδέψει. Η εφαρμογή ψάχνει ανθρώπους με αντίστοιχα στοιχεία και προτείνει τον έναν στον άλλον. Αν και οι δύο δείξουν ενδιαφέρον να ταξιδέψουν ο ένας με τον άλλον τότε υπάρχει ταίριασμα και οι χρήστες μπορούν να συνομιλήσουν, να γνωριστούν και να δουν και τις λεπτομέρειες του ταξιδιού τους.
-
 ## Authors (in alphabetic order)
 
 - Bakopoulos Menelaos (menelaosbgr@gmail.com)  - Frontend Developer
@@ -14,7 +9,11 @@ Description(Greek):
 
 ## Description
 
-Do you like traveling and meeting new people? If yes, you can combine both using our unique tool.
+English: The TourMate application aims to romantically match people who are interested to travel/see common destinations (both local and far away). A user can register/login to the application using only their facebook account and create personal "Adventures" that declare where they want to go, their travel perferences (e.g. budget, hotel, etc.), and with which sex they would like to travel with. The application looks for people with matching adventures and proposes these people, and their adventures, to one another provided their preferences match. If two users "like" each other there is a match and the users would then be able to talk and discuss further trip details. 
+
+Greek: Η εφαρμογή TourMate ταιριάζει ανθρώπους που έχουν κοινό προορισμό και έχουν δείξει ενδιαφέρον ο ένας για τον άλλον. Ο χρήστης μπορεί να συνδεθεί στην εφαρμογή μέσω Facebook ή να δημιουργήσει λογαριασμό και να δημιουργήσει ταξίδια-περιπέτειες δηλώνοντας που θέλει να πάει ,το στυλ του ταξιδιού του, τα ενδιαφέροντά του και το με τι φύλο θέλει να ταξιδέψει. Η εφαρμογή ψάχνει ανθρώπους με αντίστοιχα στοιχεία και προτείνει τον έναν στον άλλον. Αν και οι δύο δείξουν ενδιαφέρον να ταξιδέψουν ο ένας με τον άλλον τότε υπάρχει ταίριασμα και οι χρήστες μπορούν να συνομιλήσουν, να γνωριστούν και να δουν και τις λεπτομέρειες του ταξιδιού τους.
+
+"Do you like traveling and meeting new people? If yes, you can combine both using our unique tool."
 
 ## Design-Online Interactive Mockup
 
