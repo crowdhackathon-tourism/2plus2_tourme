@@ -75,11 +75,16 @@ Please note, most of the content in the front-end are stored within the wordpres
 
 To see a list of the adventures created by a specific user (in JSON format), you can go to {REST-IP:PORT}/rest/{user\_id}/adventures using your web browser, where {REST-IP:PORT} is the address/port of the Java application server and {user\_id} is the id of any registered user (try the numbers 1-7). To see a list of suggested adventures for a specific user, go to {REST-IP:PORT}/rest/{user\_id}/suggestions. **NOTE:** that there are currently **NO** security restrictions in the REST interface.
 
-## Usefull or Necessary Improvements
+## Usefull Improvements
 
-For anyone interested to use this project, and for ongoing development:
-- Usage of a wordpress child theme instead of making changes directly to an existing wordpress theme.
-- Maybe useful to use proxypass apache configuration to place tomcat behind apache frontend.
-- Improvement to UI using a JQuery Mobile Theme to improve forms and map.
-- Necessary: Improvement of security and passing of session data such as user ID between php, javascript, and java rest.
-- Necessary: Implementation of a single sign on mechanism between wordpress and java rest service.
+For anyone interested to use this project, and for ongoing development, it would be useful to:
+- Change to using a wordpress child theme instead of making changes directly to an existing wordpress theme.
+- Use proxypass apache configuration to place tomcat behind apache frontend.
+- Improve the UI using a JQuery Mobile Theme for the look and feel of forms and map.
+ 
+## Necessary Improvements
+
+It is absolutely necessary to:
+
+- Improve the mechanisms that pass session/user data between php, javascript, and the Java Rest Service.
+- Implement (or configure) a mechanism such as single sign on between wordpress and the Java Rest Service.
