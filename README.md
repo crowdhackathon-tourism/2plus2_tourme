@@ -23,11 +23,11 @@ Concurrently with development of backend functionallities and configuration our 
 - Receive list of suggested adventures (REST interface only)
 
 ## Technologies used
-- Responsive mobile user interface powered by Wordpress
-- User management powered by Buddypress
-- Custom code for frontend in PHP / Javascript / JQuery
-- REST interface written in JAVA using Spring Framework
-- MariaDB (or any MySQL compatible database) for the DB layer
+- Responsive mobile user interface powered by Wordpress (https://wordpress.com/)
+- User management powered by Buddypress (https://buddypress.org/)
+- Custom code for frontend in PHP / JavaScript / JQuery (https://jquery.com/)
+- REST interface written in JAVA using Spring Framework (http://projects.spring.io/spring-framework/)
+- MariaDB (https://mariadb.org/) (or any MySQL compatible database) for the DB layer
 
 
 ## Project Structure
