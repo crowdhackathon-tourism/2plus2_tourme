@@ -4,16 +4,20 @@
 
 ## Authors (in alphabetic order)
 
+Original Hackathon Members:
 - Bakopoulos Menelaos (menelaosbgr@gmail.com)  - Frontend Developer
 - Brani Katerina (katerina.brani@gmail.com) - Designer
 - Kaidantzi Kerry (kerrykaidantzi@hotmail.com) - Designer
 - Katsarakis Nikos (nkatsar@freemail.gr) - Backend Developer
 
+Late Addition (after Hackathon):
+- Eri Markopoulou (erika_markop@yahoo.com) - Editor (Documentation, Text)
+
 ## Description
 
-English: The TourMate application aims to romantically match people who are interested to travel/see common destinations (both local and far away). A user can register/login to the application using only their facebook account and create personal "Adventures" that declare where they want to go, their travel perferences (e.g. budget, hotel, etc.), and with which sex they would like to travel with. The application looks for people with matching adventures and proposes these people, and their adventures, to one another provided their preferences match. If two users "like" each other there is a match and the users would then be able to talk and discuss further trip details. 
+English: The TourMate application aims to match people who are interested in visiting common destinations. A user can register/login to the application just using their Facebook account and then create personal "Adventures" specifying the desired destination, travel preferences (e.g. budget, hotel), and the sex they would like to travel with. The application identifies adventure matches and brings together people with common travel preferences. If two users "like" each other, there will be a match and the users will then be able to discuss further details about the trip.
 
-Greek: Η εφαρμογή TourMate ταιριάζει ανθρώπους που έχουν κοινό προορισμό και έχουν δείξει ενδιαφέρον ο ένας για τον άλλον. Ο χρήστης μπορεί να συνδεθεί στην εφαρμογή μέσω Facebook ή να δημιουργήσει λογαριασμό και να δημιουργήσει ταξίδια-περιπέτειες δηλώνοντας που θέλει να πάει ,το στυλ του ταξιδιού του, τα ενδιαφέροντά του και το με τι φύλο θέλει να ταξιδέψει. Η εφαρμογή ψάχνει ανθρώπους με αντίστοιχα στοιχεία και προτείνει τον έναν στον άλλον. Αν και οι δύο δείξουν ενδιαφέρον να ταξιδέψουν ο ένας με τον άλλον τότε υπάρχει ταίριασμα και οι χρήστες μπορούν να συνομιλήσουν, να γνωριστούν και να δουν και τις λεπτομέρειες του ταξιδιού τους.
+Greek: Η εφαρμογή TourMate φέρνει σε επαφή δύο χρήστες που έχουν εκφράσει ενδιαφέρον για ένα κοινό προορισμό. Ο χρήστης μπορεί να συνδεθεί στην εφαρμογή μέσω Facebook ή να δημιουργήσει λογαριασμό και να δημιουργήσει ταξίδια-περιπέτειες δηλώνοντας επιθυμητό προορισμό, είδος ταξιδιού, ενδιαφέροντα και φύλο προτίμησης. Η εφαρμογή ψάχνει ανθρώπους με κοινά στοιχεία και προτείνει συνδυασμούς. Αν και οι δύο χρήστες δείξουν ενδιαφέρον να ταξιδέψουν μαζί, τότε δημιουργείται ταίριασμα που τους επιτρέπει να συνομιλήσουν, να γνωριστούν και να συζητήσουν για τις λεπτομέρειες του ταξιδιού.
 
 ## Design-Online Interactive Mockup
 
@@ -52,42 +56,48 @@ project
                User management powered by Buddypress
 ```
 
-## Instructions to install
+## Installation Instructions
 
--- tourme-wp can be copied on the htdocs of an Apache HTTP Server with PHP/MySQL support
-   it is much easier to install on a XAMPP 
-   also you have to add in your hosts file the folowing line
-   YOUR_SERVER_IP tourme.gr
+Requirements
+-PHP
+-MySQL
+-Apache HTTP web server with mod_php and mod_php installed
+
+-- Copy the contents of tourme-wp into the document root of your web server (e.g. /var/www/htdocs). Add the line YOUR_SERVER_IP tourme.gr to your hosts file.
+  
+ Replace the address 192.168.29.1:8080 in "tourme-wp/js/tourme.js" with the address of the application server running the Java REST API. Also update the MySQL related settings in "tourme-wp/wp-config.php"
+ 
+-- Java REST is a typical Maven project, deployable in any Java application server. Configure MySQL settings in tourme-app/src/main/webapp/WEB-INF/spring/root-context.xml
    
-   Also please change the address 192.168.29.1:8080 in "tourme-wp/js/tourme.js" with the 
-   address of the Java REST application server
-   and update MySQL settings in tourme-wp/wp-config.php
-
--- java-rest is a typical Maven project, it can be deployed on any Java application server
-   MySQL settings should be configured in tourme-app/src/main/webapp/WEB-INF/spring/root-context.xml
-   
-Wordpress admin username: tourme,  password: t0urm3, url: tourme.gr/tourme/wp-admin
-
-In order to run the WordPress Frontent on mobile emulator, uncomment the respective lines in tourme-wp/.htaccess
+To access the Wordpress front end use:
+- Username: tourme
+- Password: t0urm3
+- Administrative URL : http://tourme.gr/wp-admin
+ 
+To access the frontend on a mobile emulator uncomment the respective lines, specified by comments in tourme-wp/.htaccess
 
 
-## Usage
+## Using the service
 
-Once tourme-wp is installed in your server, you can go to tourme.gr (after performing the required change in your hosts file) and sign up either directly or by using facebook. You will also be able to select your preferences, which will be stored in the database. Feel free to browse through the menus, keeping in mind that that most of them are placeholders. However the form to create a new adventure is fully functional, you can select your target location using the provided map, noting that the range you are willing to visit from your selected point depends on the zoom level. 
-Please note, most of the content in the front-end are stored within the wordpress DB as opposed to project code files (this is the case with most WP).
+Once you install tourme-wp in your server, go to tourme.gr (after performing the necessary changes in your hosts file) and sign up either directly or through Facebook. You can also select your preferences, which will be stored in the database. Feel free to browse through the menus, considering that most of them are placeholders. Yet, the form to create a new adventure is fully functional. Select your target location using the provided map, noting that the travel distance depends on the zoom level. Also note that most of the content in the front end is stored within the Wordpress schema as opposed to project code files.
 
-To see a list of the adventures created by a specific user (in JSON format), you can go to {REST-IP:PORT}/rest/{user\_id}/adventures using your web browser, where {REST-IP:PORT} is the address/port of the Java application server and {user\_id} is the id of any registered user (try the numbers 1-7). To see a list of suggested adventures for a specific user, go to {REST-IP:PORT}/rest/{user\_id}/suggestions. **NOTE:** that there are currently **NO** security restrictions in the REST interface.
+The REST API produces results in JSON format.
+Through your web browser, you can visit:
+- {REST-IP:PORT}/rest/{user_id}/adventures to browse a list of adventures created by a specific user
+- {REST-IP:PORT/rest/{user_id}/suggestions to retrieve a list of suggested adventures for a specified user where {REST-IP:PORT} is the address:port of the Java application server and {user_id} is the ID of any registered user (try the numbers 1-7)
+
+NOTE: that there are currently NO security restrictions in the REST interface.
 
 ## Necessary Improvements
 
 It is absolutely necessary to:
 
-- Improve the mechanisms that pass session/user data between php, javascript, and the Java Rest Service.
-- Implement (or configure) a mechanism such as single sign on between wordpress and the Java Rest Service.
+- Improve the mechanisms that exchange user and session data between PHP, JavaScript, and the Java REST service.
+- Implement Single Sign On (SSO) between WordPress and the Java REST service.
 
 ## Useful Improvements
 
-For anyone interested to use this project, and for ongoing development, it would be useful to:
-- Change to using a wordpress child theme instead of making changes directly to an existing wordpress theme.
-- Use proxypass apache configuration to place tomcat behind apache frontend.
-- Improve the UI using a JQuery Mobile Theme for the look and feel of forms and map.
+For anyone interested in engaging in this project or for further development, it would be useful to:
+- Change to using a WordPress child theme instead of directly modifying an existing WordPress theme.
+- Use the ProxyPass Apache configuration to place tomcat behind Apache front end. Configure a reverse proxy for the application server running the REST API.
+- Use a jQuery Mobile Theme to improve the look and feel of the UI.
